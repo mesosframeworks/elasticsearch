@@ -1,0 +1,21 @@
+/*
+ * ElasticSearch minisite
+ *
+ *
+ */
+
+
+// Paths
+
+$fonts-path : "../../static/fonts/";
+$imgs-path : "../../static/imgs/";
+
+// Import fonts
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300italic,300,400italic,500,500italic,700italic,900,900italic,700);
+@include font-face("novecento_sans_widedemibold", #{$fonts-path}novecentosanswide_demibold_macroman/Novecentosanswide-DemiBold-webfont);
+@include font-face("novecento_sans_widemedium", #{$fonts-path}novecentosanswide_medium_macroman/Novecentosanswide-Medium-webfont);
+
+$font-text: 'Roboto', sans-serif;
+$font-header: 'novecento_sans_widemedium', sans-serif;
+$font-header-bold: 'novecento_sans_widedemibold', sans-serif;
