@@ -7,8 +7,8 @@
 
 // Paths
 
-$fonts-path : "../../static/fonts/";
-$imgs-path : "../../static/imgs/";
+$fonts-path: "../../static/fonts/";
+$imgs-path: "../../static/imgs/";
 
 // Import fonts
 
@@ -19,3 +19,32 @@ $imgs-path : "../../static/imgs/";
 $font-text: 'Roboto', sans-serif;
 $font-header: 'novecento_sans_widemedium', sans-serif;
 $font-header-bold: 'novecento_sans_widedemibold', sans-serif;
+
+// Colors
+
+$yellow: #ffcc05;
+$gray-darker: #262626;
+
+// Site structure
+
+body {
+	text-align: center;
+}
+
+header {
+	height: 100vh;
+	background: url(#{$imgs-path}_dummies/bg-header.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+footer {
+	background: $gray-darker;
+}
+
+.foo {
+	background: yellow;
+}
+
+footer {
+	
+}
