@@ -1,0 +1,8 @@
+.download {
+	background: $blue;
+	color: white;
+	
+	a {
+		@include rtp-button();
+	}
+}
