@@ -13,6 +13,10 @@ body {
 section,
 footer {
 	padding: 30px 0;
+	
+	@media #{$medium-up} {
+		padding: 60px 0;			
+	}
 		
 	p {
 		margin: 0 0 1.5em 0;
@@ -23,4 +27,8 @@ footer {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+.text-right {
+	text-align: right;
 }

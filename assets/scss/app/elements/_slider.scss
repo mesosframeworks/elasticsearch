@@ -11,6 +11,11 @@
 		height: 12px;
 		width: 12px;
 		margin: 0 2px;
+		
+		@media #{$medium-up} {
+			width: 20px;
+			height: 20px;			
+		}
 				
 		&.cycle-pager-active {
 			

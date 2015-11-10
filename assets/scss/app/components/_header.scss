@@ -13,13 +13,25 @@ header {
 		background: rgba(255, 255, 255, .8);
 	}
 	
+	img {
+		
+		@media #{$medium-up} {
+			width: 420px;			
+		}
+	}
+	
 	h1 {
 		text-transform: uppercase;
-		font-family: $font-header-bold;
+		font-family: $font-header;
 		font-size: 18px;
 		line-height: 1.2em;
 		margin: 60px auto 0 auto;
 		color: $gray;
 		max-width: 290px;
+		
+		@media #{$medium-up} {
+			font-size: 36px;
+			max-width: 490px;			
+		}
 	}
 }
