@@ -8,13 +8,14 @@ footer {
 		
 	}
 	
+/*
 	h3 {
 		font-family: $font-header;
 		position: relative;
 		display: inline-block;
 		margin: 0 auto 1em auto;
 		font-size: 12px;
-		padding-bottom: 7px;
+		
 		
 		&:after {
 			display: block;
@@ -37,6 +38,7 @@ footer {
 			}		
 		}
 	}
+*/
 }
 
 
@@ -65,13 +67,15 @@ footer {
 		
 		&:after {
 			height: 7px;
-			background: url(#{$imgs-path}icons/header-underline-white.svg) no-repeat center bottom;
+			background: url(#{$imgs-path}icons/heading-underline-white.svg) no-repeat center bottom;
 			background-size: contain;
 		}
 	}
 	
 	&.line-below {
 		font-size: 14px;
+		text-transform: uppercase;
+		padding-bottom: 7px;
 		
 		&:after {
 			width: 30px;
