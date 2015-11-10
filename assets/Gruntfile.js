@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 			all : {
 				dest : "js/bundle.js",
 				exclude : ["modernizr"],
-				include : ["jquery", "jquery.cycle2.min"]
+				include : ["jquery", "jquery.cycle2.min", "jquery.scrollTo"]
 			}
 		},
 		

@@ -10,13 +10,17 @@ header {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(255, 255, 255, .8);
+		background: rgba(255, 255, 255, .2);
 	}
 	
 	img {
 		
 		@media #{$medium-up} {
 			width: 420px;			
+		}
+		
+		@media #{$large-up} {
+			width: 350px;	
 		}
 	}
 	
@@ -32,6 +36,27 @@ header {
 		@media #{$medium-up} {
 			font-size: 36px;
 			max-width: 490px;			
+		}
+	}
+	
+	.github {
+		position: absolute;
+		top: 35px;
+		right: 45px;
+		background: plum;
+		
+		text-indent: -9999px;
+		background: url(#{$imgs-path}logos/header-github.svg) center center no-repeat;
+		background-size: cover;
+		
+		@media #{$medium-up} {
+			width: 114px;
+			height: 130px;		
+		}
+		
+		@media #{$large-up} {
+			width: 100px;
+			height: 114px;
 		}
 	}
 }

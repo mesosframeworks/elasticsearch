@@ -1,9 +1,8 @@
-var foo = function() {
-	
-	console.log("Write your code here");
-}
-
 $(function(){
 	
-	foo();
+	$(".go-to-features").click(function(e) {
+
+		e.preventDefault();
+		$(window).scrollTo("#features", 1000);
+	});
 });

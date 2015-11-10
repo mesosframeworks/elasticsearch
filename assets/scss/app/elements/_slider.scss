@@ -33,4 +33,25 @@
 			display: block;
 		}	
 	}
+	
+	&.white {
+		
+		li {
+			
+			&.cycle-pager-active {
+			
+				a {
+					background: white;
+				}
+			}
+			
+			a {
+				border: 1px solid white;
+			}
+		}
+	}
+}
+
+.slider {
+	display: inline-block;
 }

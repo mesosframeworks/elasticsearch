@@ -8,6 +8,20 @@ footer {
 		text-decoration: none;
 		
 		&.with-logo {
+			display: inline-block;
+			
+			img {
+				width: 100%;
+				max-width: 28px;
+				height: 32px;
+				margin: auto;
+				display: block;
+				
+				@media #{$medium-up} {
+					max-width: 60px;	
+					height: 68px;
+				}
+			}
 			
 			span {
 				display: block;
@@ -34,6 +48,10 @@ footer {
 			font-size: 20px;			
 		}
 		
+		@media #{$large-up} {
+			font-size: 22px;	
+		}
+		
 		li {
 			float: left;
 			padding: 0 4px;
@@ -42,6 +60,10 @@ footer {
 			
 			&:last-child {
 				border: none;
+			}
+			
+			@media #{$large-up} {
+				padding: 0 10px;			
 			}
 		}
 	}
