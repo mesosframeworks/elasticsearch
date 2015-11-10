@@ -24,7 +24,7 @@ footer {
 			bottom: 0;
 			left: 0;
 			content: "";
-			background: url(#{$imgs-path}icons/header-underline-white.svg) no-repeat center bottom;
+			background: url(#{$imgs-path}icons/heading-underline-white.svg) no-repeat center bottom;
 			background-size: contain;
 		}
 		
@@ -36,5 +36,51 @@ footer {
 				height: 11px;
 			}		
 		}
+	}
+}
+
+
+
+.heading {
+	font-family: $font-header;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto 1em auto;
+	font-size: 12px;
+	
+	&.decoration {
+		
+		&:after {
+			display: block;
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			content: "";
+		}
+	}
+	
+	&.peaks-below {
+		padding-bottom: 7px;
+		
+		&:after {
+			height: 7px;
+			background: url(#{$imgs-path}icons/header-underline-white.svg) no-repeat center bottom;
+			background-size: contain;
+		}
+	}
+	
+	&.line-below {
+		font-size: 14px;
+		
+		&:after {
+			width: 30px;
+			height: 2px;
+			background: black;
+		}	
+	}
+	
+	&.black {
+		color: black;		
 	}
 }

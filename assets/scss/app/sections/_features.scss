@@ -1,4 +1,18 @@
 .features {
 	background: $yellow;
 	text-align: left;
+	
+	.inner {
+		border-top: 2px solid white;
+		padding-top: 1.5em;
+		
+		&.no-border {
+			border: none;
+			padding-top: 0;
+		}
+	}
+	
+	img {
+		width: 100%;
+	}
 }
