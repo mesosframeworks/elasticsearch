@@ -17,7 +17,8 @@
 	        
 	        <header>
 		        <div class="vertical-align logo">
-			        <img src="static/imgs/_dummies/logo.svg">
+			        <img src="static/imgs/logos/header-elastic-search.svg">
+			        <h1>Scale your favorite analytics engine</h1>
 		        </div>
 	        </header>
 	        
@@ -185,11 +186,16 @@
 		        </section>
 		        
 		        <section class="product">
-			        <div class="cycle-slideshow">
+			        <div 
+				        class="cycle-slideshow" 
+				        data-cycle-pager="#product-slider-pager"
+						data-cycle-pager-template="<li><a href=#> {{slideNum}} </a></li>"
+					>
 					    <img src="static/imgs/product-slider/01.png">
 					    <img src="static/imgs/product-slider/02.png">
 					    <img src="static/imgs/product-slider/03.png">
 					</div>
+					<ul id="product-slider-pager" class="pager"></div>
 		        </section>
 		        
 		        <section class="download">
