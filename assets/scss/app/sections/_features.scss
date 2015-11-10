@@ -6,6 +6,11 @@
 		border-top: 2px solid white;
 		padding-top: 1.5em;
 		
+		@media #{$large-up} {
+			max-width: 750px;
+			margin: auto;	
+		}
+		
 		&.no-border {
 			border: none;
 			padding-top: 0;
@@ -14,5 +19,6 @@
 	
 	img {
 		width: 100%;
+		max-width: 65px;
 	}
 }

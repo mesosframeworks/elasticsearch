@@ -62,6 +62,8 @@ footer {
 		}
 	}
 	
+	
+	
 	&.peaks-below {
 		padding-bottom: 7px;
 		
@@ -69,6 +71,15 @@ footer {
 			height: 7px;
 			background: url(#{$imgs-path}icons/heading-underline-white.svg) no-repeat center bottom;
 			background-size: contain;
+		}
+		
+		@media #{$medium-up} {
+			font-size: 18px;
+			padding-bottom: 18px;	
+			
+			&:after {
+				height: 11px;
+			}		
 		}
 	}
 	
