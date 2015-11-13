@@ -1,1 +1,1 @@
-My template
+# Website for the Mesos Elasticsearch website
