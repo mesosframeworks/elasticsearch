@@ -21,7 +21,7 @@
 			        <h1>Scale your favorite analytics engine</h1>
 		        </div>
 		        
-		        <a class="github" href="http://gitbhub.com" target="_blank">GitHub</a>
+		        <a class="github show-for-medium-up" href="https://github.com/mesos/elasticsearch" target="_blank">GitHub</a>
 		        
 	        </header>
 	        
@@ -34,52 +34,56 @@
 					        <p>The Elasticsearch Mesos framework allows to deploy Elasticsearch on a large Mesos cluster which runs on any kind of hardware.</p>
 					        <p>The framework helps to automate installation, running and scaling of the system. The user interface shows the the cluster state and performance overview.</p>
 							<a href="#" class="go-to-features">Features</a>
-							<a href="#">Documentation</a>
+							<a href="http://mesos-elasticsearch.readthedocs.org/en/latest/#getting-started">Documentation</a>
 				        </div>
 			        </div>
 		        </section>
 		        
 		        <section class="infographic">
-			        <div>
-				        <div 
-					        class="cycle-slideshow slider" 
-					        data-cycle-pager="#infographic-slider-pager"
-							data-cycle-pager-template="<li><a href=#> {{slideNum}} </a></li>"
-							data-cycle-slides="> .item"
-							data-cycle-log=false	
-						>
-						    <div class="item">
-							    <img src="static/imgs/infographic-slider/01.png">
-							    <p><span>STEP 1.</span>The quick brown fox jumps over the lazy dog lorem ipsum dolor sit amet, lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
-						    </div>
-						    
-						    <div class="item">
-							    <img src="static/imgs/infographic-slider/02a.png">
-							    <p><span>STEP 2a.</span>The quick brown fox jumps over the lazy dog lorem ipsum dolor sit amet, lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
-						    </div>
-						    
-						    <div class="item">
-							    <img src="static/imgs/infographic-slider/02b.png">
-							    <p><span>STEP 2b.</span>The quick brown fox jumps over the lazy dog lorem ipsum dolor sit amet, lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
-						    </div>
-						    
-						    <div class="item">
-							    <img src="static/imgs/infographic-slider/03.png">
-							    <p><span>STEP 3.</span>The quick brown fox jumps over the lazy dog lorem ipsum dolor sit amet, lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
-						    </div>
-						    
-						    <div class="item">
-							    <img src="static/imgs/infographic-slider/04.png">
-							    <p><span>STEP 4.</span>The quick brown fox jumps over the lazy dog lorem ipsum dolor sit amet, lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
-						    </div>
-						    
-						    <div class="item">
-							    <img src="static/imgs/infographic-slider/05.png">
-							    <p><span>STEP 5.</span>The quick brown fox jumps over the lazy dog lorem ipsum dolor sit amet, lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
-						    </div>
-						</div>
+			        <div class="row">
+				        <div class="columns small-12">
+					        <div>
+						        <div 
+							        class="cycle-slideshow slider" 
+							        data-cycle-pager="#infographic-slider-pager"
+									data-cycle-pager-template="<li><a href=#> {{slideNum}} </a></li>"
+									data-cycle-slides="> .item"
+									data-cycle-log=false	
+								>
+								    <div class="item">
+									    <img src="static/imgs/infographic-slider/01.png">
+									    <p><span>STEP 1.</span>Mesos cluster with Marathon and Chronos frameworks already running.</p>
+								    </div>
+								    
+								    <div class="item">
+									    <img src="static/imgs/infographic-slider/02a.png">
+									    <p><span>STEP 2a.</span>ES framework scheduler is deployed to the master node with a configured number (3) of slaves to be launched.</p>
+								    </div>
+								    
+								    <div class="item">
+									    <img src="static/imgs/infographic-slider/02b.png">
+									    <p><span>STEP 2b.</span>Scheduler receives resource offers from Mesos.</p>
+								    </div>
+								    
+								    <div class="item">
+									    <img src="static/imgs/infographic-slider/03.png">
+									    <p><span>STEP 3.</span>Once ES scheduler accepts the offers, it deploys executors together with ES nodes in containers to Mesos slaves.</p>
+								    </div>
+								    
+								    <div class="item">
+									    <img src="static/imgs/infographic-slider/04.png">
+									    <p><span>STEP 4.</span>ES nodes discovery. Zookeeper plugins in ES nodes registers with Zookeeper. This allows the nodes to find each other.</p>
+								    </div>
+								    
+								    <div class="item">
+									    <img src="static/imgs/infographic-slider/05.png">
+									    <p><span>STEP 5.</span>The ES nodes found each other and form a cluster.</p>
+								    </div>
+								</div>
+					        </div>
+							<ul id="infographic-slider-pager" class="pager"></div>
+				        </div>
 			        </div>
-					<ul id="infographic-slider-pager" class="pager"></div>
 		        </section>
 		        
 		        <section class="features" id="features">
@@ -231,26 +235,30 @@
 		        </section>
 		        
 		        <section class="product">
-			        <div>
-				        <div 
-					        class="cycle-slideshow slider" 
-					        data-cycle-pager="#product-slider-pager"
-							data-cycle-pager-template="<li><a href=#> {{slideNum}} </a></li>"
-							data-cycle-log=false	
-						>
-						    <img src="static/imgs/product-slider/01.png">
-						    <img src="static/imgs/product-slider/02.png">
-						    <img src="static/imgs/product-slider/03.png">
-						</div>
+			        <div class="row">
+				        <div class="columns small-12">
+					        <div>
+						        <div 
+							        class="cycle-slideshow slider" 
+							        data-cycle-pager="#product-slider-pager"
+									data-cycle-pager-template="<li><a href=#> {{slideNum}} </a></li>"
+									data-cycle-log=false	
+								>
+								    <img src="static/imgs/product-slider/01.png">
+								    <img src="static/imgs/product-slider/02.png">
+								    <img src="static/imgs/product-slider/03.png">
+								</div>
+					        </div>
+							<ul id="product-slider-pager" class="pager white"></ul>
+				        </div>
 			        </div>
-					<ul id="product-slider-pager" class="pager white"></div>
 		        </section>
 		        
 		        <section class="download">
 			        <h3 class="heading decoration peaks-below">Download</h3>
-			        <p>VERSION 3.2 Updated on DD.MM.YYYY</p>
+			        <p>VERSION 0.6.0 released 9.11.2015gi</p>
 			        <a href="#">Try demo</a>
-			        <a href="#">Roadmap</a>
+			        <a href="http://mesos-elasticsearch.readthedocs.org/en/latest/#roadmap" target="_blank">Roadmap</a>
 		        </section>
 		        
 	        </div>
@@ -260,20 +268,20 @@
 		        <div class="row">
 			        <div class="columns small-12">
 				        <ul>
-					        <li><a href="#">Introduction</a></li>
-					        <li><a href="#">Documentation</a></li>
-					        <li><a href="#">Roadmap</a></li>
-					        <li><a href="#">Repository</a></li>
-					        <li><a href="#">Contact</a></li>
+					        <li><a href="http://mesos-elasticsearch.readthedocs.org/en/latest/">Introduction</a></li>
+					        <li><a href="http://mesos-elasticsearch.readthedocs.org/en/latest/#getting-started">Documentation</a></li>
+					        <li><a href="http://mesos-elasticsearch.readthedocs.org/en/latest/#roadmap">Roadmap</a></li>
+					        <li><a href="https://github.com/mesos/elasticsearch">Repository</a></li>
+					        <li><a href="mailto:mesos-es@container-solutions.com" target="_blank">Contact</a></li>
 				        </ul>
 			        </div>
 		        </div>
 		        
 		        <div class="row">
-			        <div class="columns small-6 text-right">
-				        <a href="#" target="_blank" class="with-logo">
-					        <img src="static/imgs/logos/footer-mesos-framed.svg">
-					        <span>Mesos Framed</span>
+					<div class="columns small-6 text-right">
+				        <a href="http://www.cisco.com/" target="_blank" class="with-logo">
+					        <img src="static/imgs/logos/footer-cisco.svg">
+					        <span>Cisco Systems</span>
 				        </a>
 			        </div>
 			        <div class="columns small-6 text-left">
